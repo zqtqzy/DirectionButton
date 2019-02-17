@@ -13,6 +13,9 @@
 		FF1A17BD22144318009429FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF1A17BC22144318009429FC /* Assets.xcassets */; };
 		FF1A17C022144318009429FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF1A17BE22144318009429FC /* LaunchScreen.storyboard */; };
 		FF1A17CB22144318009429FC /* CircleButtonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1A17CA22144318009429FC /* CircleButtonTests.swift */; };
+		FF1A17D62214433E009429FC /* QuarterButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1A17D52214433E009429FC /* QuarterButton.swift */; };
+		FF1A17D82214516F009429FC /* DirectionButtonGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1A17D72214516F009429FC /* DirectionButtonGroup.swift */; };
+		FFAD9A0C22191F060009F792 /* CenterButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFAD9A0B22191F060009F792 /* CenterButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 		FF1A17C622144318009429FC /* CircleButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CircleButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF1A17CA22144318009429FC /* CircleButtonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButtonTests.swift; sourceTree = "<group>"; };
 		FF1A17CC22144318009429FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF1A17D52214433E009429FC /* QuarterButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuarterButton.swift; sourceTree = "<group>"; };
+		FF1A17D72214516F009429FC /* DirectionButtonGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectionButtonGroup.swift; sourceTree = "<group>"; };
+		FFAD9A0B22191F060009F792 /* CenterButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenterButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +85,9 @@
 			children = (
 				FF1A17B522144317009429FC /* AppDelegate.swift */,
 				FF1A17B722144317009429FC /* ViewController.swift */,
+				FF1A17D52214433E009429FC /* QuarterButton.swift */,
+				FFAD9A0B22191F060009F792 /* CenterButton.swift */,
+				FF1A17D72214516F009429FC /* DirectionButtonGroup.swift */,
 				FF1A17B922144317009429FC /* Main.storyboard */,
 				FF1A17BC22144318009429FC /* Assets.xcassets */,
 				FF1A17BE22144318009429FC /* LaunchScreen.storyboard */,
@@ -199,6 +208,9 @@
 			files = (
 				FF1A17B822144317009429FC /* ViewController.swift in Sources */,
 				FF1A17B622144317009429FC /* AppDelegate.swift in Sources */,
+				FF1A17D62214433E009429FC /* QuarterButton.swift in Sources */,
+				FF1A17D82214516F009429FC /* DirectionButtonGroup.swift in Sources */,
+				FFAD9A0C22191F060009F792 /* CenterButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
