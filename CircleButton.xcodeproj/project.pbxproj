@@ -16,6 +16,8 @@
 		FF1A17D62214433E009429FC /* QuarterButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1A17D52214433E009429FC /* QuarterButton.swift */; };
 		FF1A17D82214516F009429FC /* DirectionButtonGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1A17D72214516F009429FC /* DirectionButtonGroup.swift */; };
 		FFAD9A0C22191F060009F792 /* CenterButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFAD9A0B22191F060009F792 /* CenterButton.swift */; };
+		FFAD9A0E221954C20009F792 /* DirectionButton.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FFAD9A0D221954C20009F792 /* DirectionButton.bundle */; };
+		FFAD9A10221956090009F792 /* Tools.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFAD9A0F221956090009F792 /* Tools.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +44,8 @@
 		FF1A17D52214433E009429FC /* QuarterButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuarterButton.swift; sourceTree = "<group>"; };
 		FF1A17D72214516F009429FC /* DirectionButtonGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectionButtonGroup.swift; sourceTree = "<group>"; };
 		FFAD9A0B22191F060009F792 /* CenterButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenterButton.swift; sourceTree = "<group>"; };
+		FFAD9A0D221954C20009F792 /* DirectionButton.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = DirectionButton.bundle; sourceTree = "<group>"; };
+		FFAD9A0F221956090009F792 /* Tools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tools.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +92,8 @@
 				FF1A17D52214433E009429FC /* QuarterButton.swift */,
 				FFAD9A0B22191F060009F792 /* CenterButton.swift */,
 				FF1A17D72214516F009429FC /* DirectionButtonGroup.swift */,
+				FFAD9A0F221956090009F792 /* Tools.swift */,
+				FFAD9A0D221954C20009F792 /* DirectionButton.bundle */,
 				FF1A17B922144317009429FC /* Main.storyboard */,
 				FF1A17BC22144318009429FC /* Assets.xcassets */,
 				FF1A17BE22144318009429FC /* LaunchScreen.storyboard */,
@@ -189,6 +195,7 @@
 				FF1A17C022144318009429FC /* LaunchScreen.storyboard in Resources */,
 				FF1A17BD22144318009429FC /* Assets.xcassets in Resources */,
 				FF1A17BB22144317009429FC /* Main.storyboard in Resources */,
+				FFAD9A0E221954C20009F792 /* DirectionButton.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,6 +216,7 @@
 				FF1A17B822144317009429FC /* ViewController.swift in Sources */,
 				FF1A17B622144317009429FC /* AppDelegate.swift in Sources */,
 				FF1A17D62214433E009429FC /* QuarterButton.swift in Sources */,
+				FFAD9A10221956090009F792 /* Tools.swift in Sources */,
 				FF1A17D82214516F009429FC /* DirectionButtonGroup.swift in Sources */,
 				FFAD9A0C22191F060009F792 /* CenterButton.swift in Sources */,
 			);
