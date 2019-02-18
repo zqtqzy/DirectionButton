@@ -7,19 +7,22 @@
 #
 
 Pod::Spec.new do |s|
-
   s.name         = "DirectionButton"
   s.version      = "0.0.5"
   s.summary      = "方向按钮"
+  s.description  = <<-DESC
+                    可自定义的方向按钮
+                   DESC
+
   s.homepage     = "https://github.com/zqtqzy/DirectionButton"
+ 
   s.license      = { :type => "MIT" }
-  s.author             = { "zhouqitian" => "zqtqzy@163.com" }
-  s.module_name = 'DirectionButtonGroup'
-  s.ios.deployment_target = "10.0"
+  s.author             = { "zhouqitian" => "zhouqitian@sansi.com" }
+  s.platform     = :ios, "10.0"
   s.source       = { :git => "https://github.com/zqtqzy/DirectionButton.git", :tag => "0.0.5" }
-  s.source_files  = "DirectionButton/*.swift"
+  s.source_files  = "DirectionButton/*"
   s.resource = 'DirectionButton/DirectionButton.bundle'
-  s.ios.framework  = "UIKit"
+  s.framework  = "UIKit"
   s.swift_version = "4.2"
 
 
