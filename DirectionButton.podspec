@@ -14,12 +14,12 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/zqtqzy/DirectionButton"
   s.license      = { :type => "MIT" }
   s.author             = { "zhouqitian" => "zqtqzy@163.com" }
-  spec.module_name = 'DirectionButtonGroup'
+  s.module_name = 'DirectionButtonGroup'
   s.ios.deployment_target = "10.0"
   s.source       = { :git => "https://github.com/zqtqzy/DirectionButton.git", :tag => "0.0.5" }
   s.source_files  = "DirectionButton/*.swift"
   s.resource = 'DirectionButton/DirectionButton.bundle'
-  s.framework  = "UIKit"
+  s.ios.framework  = "UIKit"
   s.swift_version = "4.2"
 
 
