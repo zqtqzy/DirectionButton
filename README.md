@@ -2,12 +2,18 @@
 
 ## Contents
 
-- [Requirements](#requirements)
-- [Communication](#communication)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Credits](#credits)
-- [License](#license)
+- [DirectionButton](#directionbutton)
+  - [Contents](#contents)
+  - [Requirements](#requirements)
+  - [Communication](#communication)
+  - [Installation](#installation)
+    - [CocoaPods](#cocoapods)
+    - [Carthage](#carthage)
+    - [Manually](#manually)
+  - [Usage](#usage)
+    - [Quick Start](#quick-start)
+  - [Credits](#credits)
+  - [License](#license)
 
 ## Requirements
 
@@ -82,20 +88,31 @@ If you prefer not to use either of the aforementioned dependency managers, you c
 ### Quick Start
 
 ```swift
-import DirectionButton
-
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let btn = DirectionButtonGroup.init(frame: CGRect.init(x: 100, y: 100, width: 200, height: 200))
+        let btn = DirectionButton.init(frame: CGRect.init(x: 100, y: 100, width: 200, height: 200))
+        btn.tapDelegate = self
         
         view.addSubview(btn)
     }
 
 
 }
+
+extension ViewController: DirectionButtonDelegate{
+    func didTapDirectionButton(direction: ButtonDirection) {
+        // Tap DirectionButton Action
+    }
+    
+    func didTapCenterButton() {
+        // Tap CenterButton Action
+        
+    }
+}
+
 ```
 
 

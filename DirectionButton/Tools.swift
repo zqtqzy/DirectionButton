@@ -10,7 +10,7 @@ import UIKit
 
 extension UIImage{
     class func imageFromBundle(named name: String!) -> UIImage? {
-        var bundle = Bundle.init(for: DirectionButtonGroup.self)
+        var bundle = Bundle.init(for: DirectionButton.self)
         if let resourcePath = bundle.path(forResource: "DirectionButton", ofType: "bundle") {
             if let resourcesBundle = Bundle(path: resourcePath) {
                 bundle = resourcesBundle

@@ -8,18 +8,18 @@
 
 import UIKit
 
-protocol DirectionButtonGroupDelegate: class {
+protocol DirectionButtonDelegate: class {
     func didTapDirectionButton(direction: ButtonDirection)
     func didTapCenterButton()
 }
 
-extension DirectionButtonGroupDelegate{
+extension DirectionButtonDelegate{
     func didTapCenterButton() {
         
     }
 }
 
-class DirectionButtonGroup: UIView {
+class DirectionButton: UIView {
     
     var seperate: CGFloat = 15.0
     
@@ -29,7 +29,7 @@ class DirectionButtonGroup: UIView {
         }
     }
     
-    weak var tapDelegate: DirectionButtonGroupDelegate?
+    weak var tapDelegate: DirectionButtonDelegate?
     
     private lazy var topButton: QuarterButton = {
         let tempView = QuarterButton.init(frame: CGRect.zero, direction: .ButtonDirectionTop)

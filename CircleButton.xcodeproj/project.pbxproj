@@ -13,11 +13,11 @@
 		FF1A17BD22144318009429FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF1A17BC22144318009429FC /* Assets.xcassets */; };
 		FF1A17C022144318009429FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF1A17BE22144318009429FC /* LaunchScreen.storyboard */; };
 		FF1A17CB22144318009429FC /* CircleButtonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1A17CA22144318009429FC /* CircleButtonTests.swift */; };
-		FF1A17D62214433E009429FC /* QuarterButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1A17D52214433E009429FC /* QuarterButton.swift */; };
-		FF1A17D82214516F009429FC /* DirectionButtonGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1A17D72214516F009429FC /* DirectionButtonGroup.swift */; };
-		FFAD9A0C22191F060009F792 /* CenterButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFAD9A0B22191F060009F792 /* CenterButton.swift */; };
-		FFAD9A0E221954C20009F792 /* DirectionButton.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FFAD9A0D221954C20009F792 /* DirectionButton.bundle */; };
-		FFAD9A10221956090009F792 /* Tools.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFAD9A0F221956090009F792 /* Tools.swift */; };
+		FFAD9A1A221A62D70009F792 /* CenterButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFAD9A14221A62D70009F792 /* CenterButton.swift */; };
+		FFAD9A1C221A62D70009F792 /* DirectionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFAD9A16221A62D70009F792 /* DirectionButton.swift */; };
+		FFAD9A1D221A62D70009F792 /* DirectionButton.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FFAD9A17221A62D70009F792 /* DirectionButton.bundle */; };
+		FFAD9A1E221A62D70009F792 /* QuarterButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFAD9A18221A62D70009F792 /* QuarterButton.swift */; };
+		FFAD9A1F221A62D70009F792 /* Tools.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFAD9A19221A62D70009F792 /* Tools.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,11 +41,11 @@
 		FF1A17C622144318009429FC /* CircleButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CircleButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF1A17CA22144318009429FC /* CircleButtonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButtonTests.swift; sourceTree = "<group>"; };
 		FF1A17CC22144318009429FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FF1A17D52214433E009429FC /* QuarterButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuarterButton.swift; sourceTree = "<group>"; };
-		FF1A17D72214516F009429FC /* DirectionButtonGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectionButtonGroup.swift; sourceTree = "<group>"; };
-		FFAD9A0B22191F060009F792 /* CenterButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenterButton.swift; sourceTree = "<group>"; };
-		FFAD9A0D221954C20009F792 /* DirectionButton.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = DirectionButton.bundle; sourceTree = "<group>"; };
-		FFAD9A0F221956090009F792 /* Tools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tools.swift; sourceTree = "<group>"; };
+		FFAD9A14221A62D70009F792 /* CenterButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CenterButton.swift; sourceTree = "<group>"; };
+		FFAD9A16221A62D70009F792 /* DirectionButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DirectionButton.swift; sourceTree = "<group>"; };
+		FFAD9A17221A62D70009F792 /* DirectionButton.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = DirectionButton.bundle; sourceTree = "<group>"; };
+		FFAD9A18221A62D70009F792 /* QuarterButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuarterButton.swift; sourceTree = "<group>"; };
+		FFAD9A19221A62D70009F792 /* Tools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tools.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,13 +87,9 @@
 		FF1A17B422144317009429FC /* CircleButton */ = {
 			isa = PBXGroup;
 			children = (
+				FFAD9A13221A62D70009F792 /* DirectionButton */,
 				FF1A17B522144317009429FC /* AppDelegate.swift */,
 				FF1A17B722144317009429FC /* ViewController.swift */,
-				FF1A17D52214433E009429FC /* QuarterButton.swift */,
-				FFAD9A0B22191F060009F792 /* CenterButton.swift */,
-				FF1A17D72214516F009429FC /* DirectionButtonGroup.swift */,
-				FFAD9A0F221956090009F792 /* Tools.swift */,
-				FFAD9A0D221954C20009F792 /* DirectionButton.bundle */,
 				FF1A17B922144317009429FC /* Main.storyboard */,
 				FF1A17BC22144318009429FC /* Assets.xcassets */,
 				FF1A17BE22144318009429FC /* LaunchScreen.storyboard */,
@@ -110,6 +106,18 @@
 			);
 			path = CircleButtonTests;
 			sourceTree = "<group>";
+		};
+		FFAD9A13221A62D70009F792 /* DirectionButton */ = {
+			isa = PBXGroup;
+			children = (
+				FFAD9A14221A62D70009F792 /* CenterButton.swift */,
+				FFAD9A16221A62D70009F792 /* DirectionButton.swift */,
+				FFAD9A17221A62D70009F792 /* DirectionButton.bundle */,
+				FFAD9A18221A62D70009F792 /* QuarterButton.swift */,
+				FFAD9A19221A62D70009F792 /* Tools.swift */,
+			);
+			path = DirectionButton;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -195,7 +203,7 @@
 				FF1A17C022144318009429FC /* LaunchScreen.storyboard in Resources */,
 				FF1A17BD22144318009429FC /* Assets.xcassets in Resources */,
 				FF1A17BB22144317009429FC /* Main.storyboard in Resources */,
-				FFAD9A0E221954C20009F792 /* DirectionButton.bundle in Resources */,
+				FFAD9A1D221A62D70009F792 /* DirectionButton.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,10 +223,10 @@
 			files = (
 				FF1A17B822144317009429FC /* ViewController.swift in Sources */,
 				FF1A17B622144317009429FC /* AppDelegate.swift in Sources */,
-				FF1A17D62214433E009429FC /* QuarterButton.swift in Sources */,
-				FFAD9A10221956090009F792 /* Tools.swift in Sources */,
-				FF1A17D82214516F009429FC /* DirectionButtonGroup.swift in Sources */,
-				FFAD9A0C22191F060009F792 /* CenterButton.swift in Sources */,
+				FFAD9A1E221A62D70009F792 /* QuarterButton.swift in Sources */,
+				FFAD9A1A221A62D70009F792 /* CenterButton.swift in Sources */,
+				FFAD9A1F221A62D70009F792 /* Tools.swift in Sources */,
+				FFAD9A1C221A62D70009F792 /* DirectionButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
