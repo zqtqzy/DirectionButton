@@ -38,7 +38,7 @@
 $ gem install cocoapods
 ```
 
-> CocoaPods 1.1.0+ is required to build DirectionButton 0.0.4.
+> CocoaPods 1.1.0+ is required to build DirectionButton 0.0.9.
 
 To integrate SnapKit into your Xcode project using CocoaPods, specify it in your `Podfile`:
 
@@ -48,7 +48,7 @@ platform :ios, '10.0'
 use_frameworks!
 
 target '<Your Target Name>' do
-    pod 'DirectionButton', '~> 0.0.4'
+    pod 'DirectionButton', '~> 0.0.9'
 end
 ```
 
@@ -72,7 +72,7 @@ $ brew install carthage
 To integrate SnapKit into your Xcode project using Carthage, specify it in your `Cartfile`:
 
 ```ogdl
-github "DirectionButton/DirectionButton" ~> 0.0.4
+github "DirectionButton/DirectionButton" ~> 0.0.9
 ```
 
 Run `carthage update` to build the framework and drag the built `SnapKit.framework` into your Xcode project.
