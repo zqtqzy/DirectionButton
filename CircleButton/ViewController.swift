@@ -26,10 +26,12 @@ class ViewController: UIViewController {
 extension ViewController: DirectionButtonDelegate{
     func didTapDirectionButton(direction: ButtonDirection) {
         // Tap DirectionButton Action
+        print(direction.rawValue)
     }
     
     func didTapCenterButton() {
         // Tap CenterButton Action
+        print("tap Center")
         
     }
 }

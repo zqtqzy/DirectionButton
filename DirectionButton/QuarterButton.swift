@@ -8,11 +8,11 @@
 
 import UIKit
 
-enum ButtonDirection {
-    case ButtonDirectionTop
-    case ButtonDirectionLeft
-    case ButtonDirectionBottom
-    case ButtonDirectionRight
+public enum ButtonDirection: String {
+    case ButtonDirectionTop = "Top"
+    case ButtonDirectionLeft = "Left"
+    case ButtonDirectionBottom = "Bottom"
+    case ButtonDirectionRight = "Right"
 }
 
 class QuarterButton: UIButton {

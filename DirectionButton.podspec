@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "DirectionButton"
-  s.version      = "0.0.8"
+  s.version      = "0.0.9"
   s.summary      = "方向按钮"
 
   s.homepage     = "https://github.com/zqtqzy/DirectionButton"
@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "10.0"
 
 
-  s.source       = { :git => "https://github.com/zqtqzy/DirectionButton.git", :tag => "0.0.8" }
+  s.source       = { :git => "https://github.com/zqtqzy/DirectionButton.git", :tag => "0.0.9" }
 
   s.source_files  = "DirectionButton/*.swift"
   s.resource      = 'DirectionButton/DirectionButton.bundle'
