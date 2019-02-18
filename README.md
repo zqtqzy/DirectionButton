@@ -1,6 +1,6 @@
 # DirectionButton 
 
-(<img src="./demo.PNG" alt="Demo" width="282" height="609" />)
+(<img src="./Demo.PNG" alt="Demo" width="282" height="609" />)
 
 ## Contents
 
