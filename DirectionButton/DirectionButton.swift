@@ -14,16 +14,20 @@ protocol DirectionButtonDelegate: class {
 }
 
 extension DirectionButtonDelegate{
+    func didTapDirectionButton(direction: ButtonDirection){
+        
+    }
+    
     func didTapCenterButton() {
         
     }
 }
 
-class DirectionButton: UIView {
+public class DirectionButton: UIView {
     
-    var seperate: CGFloat = 15.0
+    public var seperate: CGFloat = 15.0
     
-    var showCenterButton: Bool = true{
+    public var showCenterButton: Bool = true{
         didSet{
             centerButton.isHidden = !showCenterButton
         }
@@ -65,13 +69,13 @@ class DirectionButton: UIView {
         return tempView
     }()
     
-    override func layoutSubviews() {
+    override public func layoutSubviews() {
         super.layoutSubviews()
         
     }
     
     
-    override init(frame: CGRect) {
+    override public init(frame: CGRect) {
         super.init(frame: frame)
         
         let length: CGFloat = (frame.size.width - seperate)/2.0
