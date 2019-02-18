@@ -1,5 +1,7 @@
 # DirectionButton 
-![demo](./Demo.PNG)
+
+(<img src="./demo.PNG" alt="Demo" width="282" height="609" />)
+
 ## Contents
 
 - [DirectionButton](#directionbutton)
