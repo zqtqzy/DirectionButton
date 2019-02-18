@@ -38,8 +38,6 @@
 $ gem install cocoapods
 ```
 
-> CocoaPods 1.1.0+ is required to build DirectionButton 0.0.9.
-
 To integrate SnapKit into your Xcode project using CocoaPods, specify it in your `Podfile`:
 
 ```ruby
