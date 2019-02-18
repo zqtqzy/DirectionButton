@@ -14,12 +14,30 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let btn = DirectionButton.init(frame: CGRect.init(x: 100, y: 100, width: 200, height: 200))
+
+        
+        let btn = DirectionButton.init(frame: CGRect.init(x: 0, y: 0, width: 200, height: 200))
+        btn.center = view.center
         btn.tapDelegate = self
         
         view.addSubview(btn)
     }
 
+    
+    /// 状态栏样式
+    override var preferredStatusBarStyle: UIStatusBarStyle {
+        return .lightContent
+    }
+    
+    /// 状态栏是否隐藏
+    override var prefersStatusBarHidden: Bool {
+        return false
+    }
+    
+    /// 状态栏的隐藏与显示动画样式
+    override var preferredStatusBarUpdateAnimation: UIStatusBarAnimation {
+        return .slide
+    }
 
 }
 
